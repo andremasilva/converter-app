@@ -1,0 +1,59 @@
+body {
+    margin: 0;
+
+}
+
+.container {
+    background: #6943fe;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+h1 {
+    text-align: center;
+    font-size: 17px;
+    color: white;
+}
+
+input {
+    max-width: 4.5rem;
+    max-height: 9vh;
+    text-align: center;
+    font-size: 1.5rem;
+    padding: 1vh;
+    margin-bottom: 1rem;
+    color: rgb(19, 16, 16);
+    background: #6943fe;
+    border: 1px solid white;
+    border-radius: 5px;
+
+}
+
+button {
+    border: none;
+    border-radius: 5px;
+    color: black;
+    background: white;
+    padding: 10px;
+    font-size: 1rem;
+    margin-bottom: 1rem;
+    font-weight: bolder;
+}
+
+.converter {
+    text-align: center;
+    min-width: 100%;
+    min-height: 80vh;
+    background: whitesmoke;
+}
+
+#meter-feet,
+#liter-gallon,
+#kilogram-pound {
+    min-height: 30px;
+    border: 2px solid white;
+    background: white;
+    margin: 10px
+}
